@@ -4,4 +4,3 @@
 
 layout: home
 ---
-<h1>{{ "Hello" | downcase }  </h1>
