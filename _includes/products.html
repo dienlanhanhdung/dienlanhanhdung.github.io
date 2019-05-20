@@ -3,9 +3,9 @@
 <body>
     <div class="products">
         <div id="list-products-bar">
-         {% for page in site.data.product.products %}
+            {% for page in site.data.product.products %}
             <li>
-            <a href="{{ page.url }}" title="{{ page.title }}">{{ page.name }}</a> 
+                <a href="{{ page.url }}" title="{{ page.title }}">{{ page.name }}</a>
             </li>
             {% endfor %}
         </div>
