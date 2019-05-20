@@ -21,7 +21,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dienlanhanhdung.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dienlanhanhdung
 github_username:  dienlanhanhdung
-
+post-title: Tổng quan
+page-link: Giới thiệu
 # Build settings
 markdown: kramdown
 theme: minima
