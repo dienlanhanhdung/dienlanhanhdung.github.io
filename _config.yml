@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Cửa hàng điện lạnh Anh Dũng
+title: Điện lạnh Anh Dũng
 email: dienlanhanhdung_lqd@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Chuyên bán và sửa chữa tủ lạnh, máy lạnh và máy giặt. Nhận vệ sinh và bảo trì 24/7 với giá cả phải chăng, cam kết linh kiện chính hãng.
@@ -21,14 +21,21 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dienlanhanhdung.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dienlanhanhdung
 github_username:  dienlanhanhdung
-post-header: Tổng quan
-trigger: Giới thiệu
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
+  - jekyll-assets
+  - jekyll-archives
+  - jekyll-seo-tag
+  - jekyll-textile-converter
+  - jekyll-sitemap
+  - jekyll-compose
+  - jekyll-youtube
+  - jekyll-timeago
+  - jekyll-toc
+  - jekyll-email-protect
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -40,5 +47,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-exclude:
-  - _sass
+

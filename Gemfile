@@ -27,8 +27,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-compose"
   gem "jekyll-youtube"
-  gem "jekyll-asset-path-plugin"
-  gem "jekyll-time-ago"
+  gem "jekyll-timeago"
   gem "jekyll-toc"
   gem "jekyll-email-protect"
 end
