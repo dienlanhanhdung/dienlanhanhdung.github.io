@@ -1,0 +1,14 @@
+products: [
+    { 
+        name: 'Máy giặt',
+        url: '/maygiat.html'
+    },
+    {
+        name: 'Máy lạnh',
+        url: '/maylanh.html'
+    },
+    {
+        name: 'Tủ lạnh',
+        url: '/tulanh.html'
+    }
+]

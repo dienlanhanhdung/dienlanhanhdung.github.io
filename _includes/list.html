@@ -1,0 +1,29 @@
+<html>
+
+<body>
+    <div class="list-bar">
+        <div id="home-option">
+            {% for item in site.data.home %}
+            <a href="{{ item.link }}" {% if page.url == item.link %} {% endif %}> {{ item.name }} </a>
+            {% endfor %}
+        </div>
+        <div id="menu-option">
+            {% for item in site.data.menu %}
+            <a href="{{ item.link }}" {% if page.url == item.link %} {% endif %}> {{ item.name }} </a>
+            {% endfor %}
+        </div>
+        <div id="contact-option">
+            {% for item in site.data.contact%}
+            <a href="{{ item.link }}" {% if page.url == item.link %} {% endif %}> {{ item.name }} </a>
+            {% endfor %}
+        </div>
+        <div id="about-option">
+            {% for item in site.data.about %}
+            <a href="{{ item.link }}" {% if page.url == item.link %} {% endif %}> {{ item.name }} </a>
+            {% endfor %}
+        </div>
+    </div>
+
+</body>
+
+</html>
