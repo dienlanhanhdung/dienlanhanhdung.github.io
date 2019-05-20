@@ -3,16 +3,4 @@ layout: page
 title: About
 permalink: /about/
 ---
-Dien Lanh Anh Dung
-<!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll -->
+Cửa hàng điện lạnh Anh Dũng nằm trên đường Lê Quang Định, Bình Thạnh. Chuyên bán và sửa chữa các thiết bị như máy lạnh, máy giặt , tủ lạnh với cam kết tất cả linh kiện đều là hàng chính hãng, giá cả phải chặng, phục vụ 24/7 trừ các ngày lễ , Tết.
