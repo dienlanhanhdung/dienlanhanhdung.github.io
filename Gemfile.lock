@@ -124,6 +124,7 @@ DEPENDENCIES
   jekyll-compose
   jekyll-email-protect
   jekyll-feed (~> 0.6)
+  jekyll-sass-converter
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-textile-converter

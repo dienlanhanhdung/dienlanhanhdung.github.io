@@ -30,6 +30,7 @@ group :jekyll_plugins do
   gem "jekyll-timeago"
   gem "jekyll-toc"
   gem "jekyll-email-protect"
+  gem "jekyll-sass-converter"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
